@@ -355,10 +355,11 @@ body
  .skill
  {
  	display: inline-block;
- 	height: 70%;
+ 	height: 60%;
  	width: 70%;
  	margin-top: 30px;
  	margin-left: 170px;
+ 	padding:20px;
  	background-color:white;
  	border-radius: 10px;
  }
@@ -369,31 +370,41 @@ body
  	font-size: 30px;
  	margin-left: 10px ;
  }
- #progress-bar
+ .progress-bar-html
  {
  	border-radius: 20px;
  	margin-left: 12px;
- 	height:10px;
- 	
- 	background-color: green;
+ 	height:15px;
+ 	width:70%;
+ 	background-color: #A08077;
  }
- .progress-bar-html
+  .progress-bar-css
  {
- 	width:80%;
+ 	border-radius: 20px;
+ 	margin-left: 12px;
+ 	height:15px;
+ 	width:50%;
+ 	background-color: #A08077; 
  }
- .progress-bar-css
+  .progress-bar-js
  {
- 	width:60%;
- }
- .progress-bar-js
- {
+ 	border-radius: 20px;
+ 	margin-left: 12px;
+ 	height:15px;
  	width:20%;
+ 	background-color: #A08077;
+ }
+  .progress-bar-c
+ {
+ 	border-radius: 20px;
+ 	margin-left: 12px;
+ 	height:15px;
+ 	width:65%;
+ 	background-color: #A08077;
  }
  
- .progress-bar-c
- {
- 	width:75%;
- }
+ 
+ 
 .btn-1
 {
 	background-color: #00ffea;
